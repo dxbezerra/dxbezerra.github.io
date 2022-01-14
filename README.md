@@ -6,26 +6,26 @@ This is my portfolio
 </h1>
 
 <p align="center">
-<a href="#-projeto">Resumo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-projeto">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Link</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#-layout">Contato</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Contact</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
-## 💻 Resumo
+## 💻 Overview
 
-Repositório para o meu portfólio, onde coloco alguns dos meu trabalhos, as linguagens e frameworks que utilizo e um pouco mais sobre os cursos que completei.
+Repository for my portfolio, in which i provide some of my work.
 
 
 ## :rocket: Link
 
-Clique [aqui](https://christyschott.github.io/portfolio.github.io/) para abrir.
+Click [here](https://christyschott.github.io/portfolio.github.io/) to open.
 
-## :telephone: Contato
+## :telephone: Contact
 
-Para mais trabalhos acesse meu [LinkedIn](https://www.linkedin.com/in/christy-hauschild-0757431a4/) e outros repositórios aqui no GitHub. 
+To see more of my work here is my [LinkedIn](https://www.linkedin.com/in/diego-xavier-a3998179/). 
 
-Meu e-mail: christyhauschild@gmail.com
+E-mail: diegoxavier95@gmail.com
 
-Número de telefone: (51) 99658-5057
+Phone number: +55 (85) 99158-4801
