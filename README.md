@@ -17,7 +17,7 @@ Repository for my portfolio, which i provide some of my work.
 
 ## :rocket: Link
 
-Click [here](https://christyschott.github.io/portfolio.github.io/) to open.
+Click [here](https://dxbezerra.github.io/) to open.
 
 ## :telephone: Contact
 
