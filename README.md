@@ -12,7 +12,7 @@
 
 ## 💻 Overview
 
-Repository for my portfolio, in which i provide some of my work.
+Repository for my portfolio, which i provide some of my work.
 
 
 ## :rocket: Link
@@ -21,7 +21,7 @@ Click [here](https://christyschott.github.io/portfolio.github.io/) to open.
 
 ## :telephone: Contact
 
-To see more of my work here is my [LinkedIn](https://www.linkedin.com/in/diego-xavier-a3998179/). 
+See more of my work on [LinkedIn](https://www.linkedin.com/in/diego-xavier-a3998179/). 
 
 E-mail: diegoxavier95@gmail.com
 
