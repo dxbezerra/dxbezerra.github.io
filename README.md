@@ -1,6 +1,3 @@
-# dxbezerra.github.io
-This is my portfolio
-
 <h1 align="center">
   :mortar_board: Portfolio :mortar_board:
 </h1>
