@@ -10,7 +10,9 @@
 
 <br>
 
-## UNDER DEVELOPMENT
+<p align="center">
+  UNDER DEVELOPMENT
+</p>
 
 ## 💻 Overview
 
