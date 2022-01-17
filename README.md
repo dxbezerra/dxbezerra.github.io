@@ -16,7 +16,7 @@
 
 ## 💻 Overview
 
-Repository for my portfolio, which i provide some of my work.
+Repository for my portfolio showcasing some of my work.
 
 
 ## :rocket: Link
