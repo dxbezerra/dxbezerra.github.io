@@ -10,6 +10,8 @@
 
 <br>
 
+## UNDER DEVELOPMENT
+
 ## 💻 Overview
 
 Repository for my portfolio, which i provide some of my work.
