@@ -12,7 +12,7 @@ h1 {
 	font-family: 'Inknut Antiqua', serif;
 	font-size: 60px;
 	line-height: 150%;
-	margin-top: 170px;
+	margin-top: 215px;
 	margin-bottom: 25px;
 }
 
@@ -153,11 +153,22 @@ nav li a:hover {
 
 /* Style the tab */
 .tab {
- margin-left: 550px;
- overflow: hidden;
- border: 0px solid #ccc;
- background-color: white;
+  /* margin-left: 350px; */
+  overflow: hidden;
+  border: 0px solid #ccc;
+  background-color: white;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100px;
+  border: 3px red; */
+}
+/* div.tab-container {
+  text-align: center;
+} */
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
@@ -181,7 +192,8 @@ nav li a:hover {
 
 /* Create an active/current tablink class */
 .tab button.active {
- background-color: #C7DAED;
+ /* background-color: #C7DAED; */
+ background-image: linear-gradient(white, #C7DAED);
 }
 
 /* Style the tab content */
