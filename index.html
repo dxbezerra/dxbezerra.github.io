@@ -24,7 +24,7 @@
       </ul>
     </nav>
 
-    <!--header-->
+    <!--HEADER / EXPERIENCE-->
     <header id="experience">
       <div class="container">
         <div class="row">
@@ -53,8 +53,12 @@
       </div>
     </header>
 
-    <!--skills-->
-    <section  id="skills">
+    <!--SKILLS-->
+    <section class="skillshead" id="skills">
+     <h2>Skills</h2>
+    </section>
+
+    <section>
       <ul class="skills-list">
         <li>Cartography</li>
         <li>Target detection</li>
@@ -63,90 +67,147 @@
       </ul>
     </section>
 
-    <!-- project 1 -->
-    <section class="project blue" id="projects">
-      <div class="container">
-        <div class="row">
+    <!-- PROJECT TABS -->
+    <!-- https://www.w3schools.com/howto/howto_js_tabs.asp -->
+   <section class="projhead">
+    <h2 id="projects">Projects</h2>
+    <p>Putting knowledge in practice</p>
+   </section>
 
-          <!-- left column -->
-          <div class="col-sm">
-            <figure>
-              <img src="img/cosmetics.jpg" alt="cosmetics">
-              <figcaption class="right-alignment">Some photo</figcaption>
-            </figure>
-          </div>
-          <!-- right column -->
-          <div class="col-sm">
-            <h2>
-              This is some paragraph about cartography
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="" class="button">read more</a>
-          </div>
+   <div class="tab">
+    <button class="tablinks" onclick="openSkill(event, 'Cartography')" id="defaultOpen">Cartography</button>
+    <button class="tablinks" onclick="openSkill(event, 'Skill2')">Skill2</button>
+    <button class="tablinks" onclick="openSkill(event, 'Skill3')">Skill3</button>
+   </div>
 
-        </div>
-      </div>
+   <!-- Cartography -->
+   <div id="Cartography" class="tabcontent">
+     <!-- project 1 -->
+     <section class="project blue">
+       <div class="container">
+         <div class="row">
 
-    </section>
+           <!-- left column -->
+           <div class="col-sm">
+             <figure>
+               <img src="img/cosmetics.jpg" alt="cosmetics">
+               <figcaption class="right-alignment">Some photo</figcaption>
+             </figure>
+           </div>
+           <!-- right column -->
+           <div class="col-sm">
+             <h2>
+               This is some paragraph about cartography
+             </h2>
+             <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+             <a href="" class="button">read more</a>
+           </div>
 
-    <!-- project 2 -->
-    <section class="project">
-      <div class="container">
-        <div class="row">
+         </div>
+       </div>
 
-          <!-- left column -->
-          <div class="col-sm right-alignment">
-            <h2>
-              This is some paragraph about target detection
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="" class="button">read more</a>
-          </div>
-          <!-- right column -->
-          <div class="col-sm">
-            <figure>
-              <img src="img/dashboard-app.jpg" alt="dashboard-app">
-              <figcaption>Some photo</figcaption>
-            </figure>
-          </div>
+     </section>
 
-        </div>
-      </div>
+     <!-- project 2 -->
+     <section class="project">
+       <div class="container">
+         <div class="row">
 
-    </section>
+           <!-- left column -->
+           <div class="col-sm right-alignment">
+             <h2>
+               This is some paragraph about target detection
+             </h2>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+             <a href="" class="button">read more</a>
+           </div>
+           <!-- right column -->
+           <div class="col-sm">
+             <figure>
+               <img src="img/dashboard-app.jpg" alt="dashboard-app">
+               <figcaption>Some photo</figcaption>
+             </figure>
+           </div>
 
-    <!-- project 3 -->
-    <section class="project blue">
-      <div class="container">
-        <div class="row">
+         </div>
+       </div>
 
-          <!-- left column -->
-          <div class="col-sm">
-            <figure>
-              <img src="img/ipad-app.jpg" alt="ipad-app">
-              <figcaption class="right-alignment">Some photo</figcaption>
-            </figure>
-          </div>
-          <!-- right column -->
-          <div class="col-sm">
-            <h2>
-              This is some paragraph about user interface design
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="" class="button">read more</a>
-          </div>
+     </section>
 
-        </div>
-      </div>
+     <!-- project 3 -->
+     <section class="project blue">
+       <div class="container">
+         <div class="row">
 
-    </section>
+           <!-- left column -->
+           <div class="col-sm">
+             <figure>
+               <img src="img/ipad-app.jpg" alt="ipad-app">
+               <figcaption class="right-alignment">Some photo</figcaption>
+             </figure>
+           </div>
+           <!-- right column -->
+           <div class="col-sm">
+             <h2>
+               This is some paragraph about user interface design
+             </h2>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+             <a href="" class="button">read more</a>
+           </div>
 
+         </div>
+       </div>
+
+     </section>
+   </div>
+
+   <!-- Skill2 -->
+   <div id="Skill2" class="tabcontent">
+     <h3>Skill2</h3>
+     <p>Skill2 is the capital of France.</p>
+   </div>
+
+   <!-- Skill3 -->
+   <div id="Skill3" class="tabcontent">
+     <h3>Skill3</h3>
+     <p>Skill3 is the capital of Japan.</p>
+   </div>
+
+    <script>
+    function openSkill(evt, skillName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(skillName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+
+    <script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+    <!-- FOOTER -->
     <footer id="contact">
       <h2>any questions?<br/>
       mail me at diegoxavier95@gmail.com

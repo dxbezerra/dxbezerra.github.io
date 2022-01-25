@@ -108,6 +108,7 @@ figcaption {
 
 .project {
   margin: 30px 0;
+  margin-top: 0px;
   padding: 30px
 }
 
@@ -148,4 +149,80 @@ nav li a {
 nav li a:hover {
   text-decoration: underline;
   color: black;
+}
+
+/* Style the tab */
+.tab {
+ margin-left: 550px;
+ overflow: hidden;
+ border: 0px solid #ccc;
+ background-color: white;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+ font-family: 'IBM Plex Mono', monospace;
+ font-size: 15px;
+ background-color: inherit;
+ float: left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 14px 16px;
+ transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+ background-color: white;
+ text-decoration: underline;
+ color: black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+ background-color: #C7DAED;
+}
+
+/* Style the tab content */
+.tabcontent {
+ display: none;
+ padding: 0px 0px;
+ border: 0px solid red;
+ border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 0.5s; /* Fading effect */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.projhead {
+  text-align: center;
+}
+
+.projhead h2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.projhead p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.skillshead {
+  text-align: center;
+}
+
+h2.projhead {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
 }
